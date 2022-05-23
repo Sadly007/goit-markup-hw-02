@@ -1,0 +1,145 @@
+:root {
+    --primery-text-color: #212121;
+    --title-text-color: #757575;
+    --accent-text-color: #2196F3;
+    --primery-white-color: #FFFFFF;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #212121
+}
+
+.hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+/*----------------------------------HEADER----------------------*/
+
+.first-header-link {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.header-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--primery-text-color);
+}
+
+.header-info-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+}
+
+.header-item :hover {
+    color: var(--accent-text-color);
+}
+
+.header-item :focus {
+    color: var(--accent-text-color);
+}
+
+/*----------------------------------MAIN----------------------*/
+
+.solutions {}
+
+.solutions-text {}
+
+.solutions-btn {}
+
+.qualities {}
+
+.qualities-list {}
+
+.qualities-item {}
+
+.qualities-text {}
+
+.qualities-top-text {}
+
+.qualities-bottom-text {}
+
+.basic {}
+
+.basic-text {}
+
+.basic-list {}
+
+.basic-item {}
+
+.team {}
+
+.team-text {}
+
+.team-list {}
+
+.team-item {}
+
+.team-top-text {}
+
+.team-bottom-text {}
+
+/*----------------------------------FOOTER----------------------*/
+
+.footer-item :hover {
+    color: var(--accent-text-color);
+}
+
+.footer-item :focus {
+    color: var(--accent-text-color);
+}
+
+.footer {
+    background-color: #2F303A;
+}
+
+.footer-first-link {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--primery-white-color);
+}
+
+.footer-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+[href="https://goo.gl/maps/KMvbWjtFumq3UxaW6"] {
+    color: var(--primery-white-color);
+}
