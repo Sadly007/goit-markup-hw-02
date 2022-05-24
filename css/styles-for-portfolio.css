@@ -1,16 +1,31 @@
 :root {
-    --primery-text-color : #212121;
-    --title-text-color : #757575;
-    --accent-text-color : #2196F3;
-    --primery-white-color : #FFFFFF;
+    --primery-text-color: #212121;
+    --title-text-color: #757575;
+    --accent-text-color: #2196F3;
+    --primery-white-color: #FFFFFF;
 }
 
 body {
-    font-family: 'Roboto' , sans-serif;
-    color: #212121 
+    font-family: 'Roboto', sans-serif;
+    color: #212121
 }
 
-.hidden { position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0;   white-space: nowrap; clip-path: inset(100%); clip: rect(0 0 0 0); overflow: hidden;}
+button {
+    cursor: pointer;
+}
+
+.hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 
 
 .list {
@@ -30,7 +45,17 @@ body {
     font-size: 26px;
     line-height: 31px;
     letter-spacing: 0.03em;
-    color: #000000;
+    color: var(--accent-text-color);
+}
+
+.secondary-header-link {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: var(--primery-text-color);
 }
 
 .header-link {
@@ -58,11 +83,35 @@ body {
 }
 /*----------------------------------MAIN----------------------*/
 
-.section-btn-item .btn {
+.section-btn-list {
+    text-align: center;
+}
+
+.section-btn-item {}
+
+.section-btn-item :hover {
+    color: var(--primery-white-color);
+    background-color: var(--accent-text-color);
+    border: 1px solid var(--accent-text-color);
+}
+
+.section-btn-item :focus {
+    color: var(--primery-white-color);
+    background-color: var(--accent-text-color);
+    border: 1px solid var(--accent-text-color);
+}
+
+.button {
+    font-family: 'Roboto' , sans-serif;
+    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
+    text-align: center;
     letter-spacing: 0.03em;
+    color: var(--primery-text-color);
+    background: #F5F4FA;
+    border: 1px solid #F5F4FA;
 }
 
 .example-title {
@@ -70,14 +119,15 @@ body {
     font-size: 18px;
     line-height: 2.00;
     letter-spacing: 0.06em;
+    color: var(--primery-text-color);
 }
 
 .example-text {
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.8;
+    line-height: 1.88;
     letter-spacing: 0.03em;
-    color: var(--title-text-color);
+    color: var(--title-text-color)
 }
 
 /*----------------------------------FOOTER----------------------*/
@@ -94,12 +144,22 @@ body {
     background-color: #2F303A;
 }
 
-.footer-first-link {
+.first-footer-link {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.19;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: var(--accent-text-color);
+}
+
+.secondary-footer-link {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
     letter-spacing: 0.03em;
     color: var(--primery-white-color);
 }
@@ -109,7 +169,7 @@ body {
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
-    color:rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.6);
 }
 
 [href="https://goo.gl/maps/KMvbWjtFumq3UxaW6"] {
