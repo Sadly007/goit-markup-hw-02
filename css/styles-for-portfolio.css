@@ -58,12 +58,16 @@ button {
     color: var(--primery-text-color);
 }
 
-.header-link {
+.header-link , .header-first-link {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--primery-text-color);
+}
+
+.header-link:current {
+    background-color: var(--accent-text-color);
 }
 
 .header-info-link {
