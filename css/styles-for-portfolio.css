@@ -48,6 +48,14 @@ button {
     color: var(--accent-text-color);
 }
 
+.current {
+    color: var(--accent-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
 .secondary-header-link {
     font-family: 'Raleway';
     font-style: normal;
@@ -64,10 +72,6 @@ button {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--primery-text-color);
-}
-
-.header-link:current {
-    background-color: var(--accent-text-color);
 }
 
 .header-info-link {
@@ -116,6 +120,19 @@ button {
     color: var(--primery-text-color);
     background: #F5F4FA;
     border: 1px solid #F5F4FA;
+}
+
+.current-button {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primery-white-color);
+    background-color: var(--accent-text-color);
+    border: 1px solid var(--accent-text-color);
 }
 
 .example-title {
